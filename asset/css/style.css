@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    background-color: rgb(38, 71, 217);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.lateral{
+    width: 20%;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+.lateral img{
+    vertical-align: middle;
+}
+
+header div nav{
+    width: 60%;
+    float: left;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    line-height: 60px;
+}
+
+.button{
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.bg-white{
+    background-color: white;
+    color: black;
+}
