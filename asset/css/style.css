@@ -1,5 +1,67 @@
-*{
+/* generali */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.fl-left{
+    float: left;
+}
+
+.fl-right{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* prima riga */
+header{
+    background-color: blue;
+    height: 60px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+header img{
+    vertical-align: middle;
+}
+
+.top-nav{
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.button{
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px;
 }
