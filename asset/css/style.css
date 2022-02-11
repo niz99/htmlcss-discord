@@ -120,12 +120,14 @@ a:hover{
     padding-bottom: 30px;
 }
 
-.central-text .scarica-white{
+.central-text .white-button{
     background-color: white;
     color: black;
     margin-right: 10px;
     padding: 15px 30px;
 }
+
+/* seconda sezione */
 
 .sec-2{
     width: 100%;
@@ -152,9 +154,41 @@ a:hover{
     padding-bottom: 30px;
 }
 
-.lateral-text h2 {
+.lateral-text p {
     color: black;
     display: inline-block;
     padding-bottom: 30px;
 }
 
+/* terza sezione */
+
+.sec-3{
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    margin-bottom: 50px;
+}
+
+.sec-3 img{
+    width: 65%;
+    margin-top: 80px;
+    float: right;
+}
+
+.lateral-text{
+    width: 35%;
+    margin-top: 130px;
+    float: right;
+}
+
+.lateral-text h2 {
+    color: black;
+    display: inline-block;
+    font-size: 42px;
+    padding-bottom: 30px;
+}
+
+.lateral-text p {
+    color: black;
+    display: inline-block;
+    padding-bottom: 30px;
+}
