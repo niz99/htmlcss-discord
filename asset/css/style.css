@@ -39,6 +39,11 @@ a{
     color: white;
 }
 
+.blue-button{
+    background-color: rgb(124, 141, 218);
+    color: white;
+}
+
 /* header logo e menu */
 
 header{
@@ -127,15 +132,15 @@ a:hover{
     padding: 15px 30px;
 }
 
-/* seconda sezione */
+/* seconda e quarta sezione */
 
-.sec-2{
+.sec-2-4{
     width: 100%;
     background-color: white;
     margin-bottom: 50px;
 }
 
-.sec-2 img{
+.sec-2-4 img{
     width: 65%;
     margin-top: 80px;
     float: left;
@@ -164,7 +169,7 @@ a:hover{
 
 .sec-3{
     width: 100%;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(244, 244, 244);
     margin-bottom: 50px;
 }
 
@@ -191,4 +196,163 @@ a:hover{
     color: black;
     display: inline-block;
     padding-bottom: 30px;
+}
+
+/* quinta sezione */
+
+.sec-5{
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sec-5 h2{
+    color: black;
+    display: inline-block;
+    font-size: 42px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sec-5 p{
+    color: black;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.sec-5 img{
+    width: 100%;
+}
+
+.star{
+    background-image: url('./../img/stars.svg');
+    width: 50%;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.sec-5 h3{
+    color: black;
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.sec-5 .blue-button{
+    padding: 15px 30px;
+}
+
+/* pie di pagina con altri menu */
+
+footer {
+    width: 100%;
+    height: 600px;
+    background-color: #23272a;
+    color: white;
+}
+
+.top-content-footer {
+    padding-top: 80px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.column-slogan {
+    width: 30%;
+    float: left;
+}
+
+.column-slogan h2 {
+    color: #8ea1e1;
+    font-size: 1.8rem;
+}
+
+.language {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.flag {
+    width: 22px;
+    vertical-align: middle;
+}
+
+.language p {
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+.italian {
+    width: 10px;
+    filter: invert(1);
+    vertical-align: middle;
+}
+
+.socialmedia {
+    margin-top: 20px;
+    filter: invert(1);
+}
+
+.socialmedia img {
+    transform: scale(1.1);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.col-list {
+    width: 17.5%;
+    float: left;
+}
+
+.col-list ul {
+    list-style: none;
+}
+
+.col-list p {
+    color: #8ea1e1;
+    font-weight: bold;
+}
+
+.col-list li {
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.col-list li:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #8ea1e1;
+}
+
+/* logo e registrazione in basso */
+
+.bottom-content-footer {
+    width: 60%;
+    padding-top: 40px;
+    margin: auto;
+    line-height: 150%;
+}
+
+.bottom-content-footer img, .bottom-content-footer a {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.bottom-content-footer a {
+    float: right;
+}
+
+.bottom-content-footer .blue-button {
+    padding: 5px 10px;
 }
